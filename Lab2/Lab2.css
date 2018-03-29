@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 3rem;
+    background-color: #eee;
+}
+
+.Main {
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 3rem;
+    position: relative;
+    clear: both;
+    content:"";
+    display: table;
+}
+
+.part,
+.part::after {
+    float: left;
+    padding: 3px;
+    border-radius: 3px;
+    text-align: center;
+    width: 15rem;
+    margin: 3rem;
+    display: inline-block;
+    background-color: #eee;
+}
+
+.button {
+    background-color: #333;
+    width: 10rem;
+    height: 6rem;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+.resultarea {
+    font-weight: 500;
+    margin: 3px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 1.6rem;
+    background-color: whitesmoke;
+}
+
+.rel {
+    background-color: white;
+}
